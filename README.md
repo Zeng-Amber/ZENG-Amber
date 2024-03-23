@@ -2,7 +2,7 @@
 
 I'm a total data junkie who loves diving into business and market intel to uncover insights hidden within the numbers. 
 
-👩‍💻 I'm currently working on Market intelligence research related to energy service companies for the company.
+👩‍💻 I'm currently working on Market intelligence research related to energy service companies for the company I am working on in Munich.
 
 📊 Check out my Tableau profile and SQL work [here](https://public.tableau.com/app/profile/yining.zeng/vizzes).
 
