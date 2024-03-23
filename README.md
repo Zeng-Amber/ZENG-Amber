@@ -12,10 +12,14 @@ I'm a total data junkie who loves diving into business and market intel to uncov
 
 ### Project 1: HR KPI Analysis
 
-<details>
+<details> 
 <summary>View Project</summary>
+</br>
 
+[Tableau](https://public.tableau.com/views/HRdashboard_16928327379680/HRanalyticsdashboard?:language=zh-TW&:sid=&:display_count=n&:origin=viz_share_link)
+ 
 [![HR KPI Analysis](https://drive.google.com/uc?export=view&id=1W9K0P3PzDyjoBNMEMW88w0fUbGsBiHms)](https://drive.google.com/drive/u/0/folders/1b_dC6NokoEJxdB3TJg6igCtwemin3iSu)
+
 
 </details>
 
@@ -25,6 +29,9 @@ I'm a total data junkie who loves diving into business and market intel to uncov
 
 <details>
 <summary>View Project</summary>
+</br>
+
+[Tableau](https://public.tableau.com/views/PerformanceofPizzaresaurant/Home?:language=zh-TW&:sid=&:display_count=n&:origin=viz_share_link)
 
 [![Pizza Sales Analysis](https://drive.google.com/uc?export=view&id=1ZX97RYpYIFLQ-_MNANtEbPU7Ue0OVeqY)](https://drive.google.com/file/d/1ZX97RYpYIFLQ-_MNANtEbPU7Ue0OVeqY/view?usp=drive_link)
 
