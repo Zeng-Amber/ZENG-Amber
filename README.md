@@ -8,7 +8,7 @@ I'm a total data junkie who loves diving into business and market intel to uncov
 
 ---
 
-## Projects -Business and market analysis
+## ![image](https://github.com/Zeng-Amber/ZENG-Amber/assets/140411179/dcc02cf2-2b95-441a-85bf-d9b8a549c1b5) Projects -Business and market analysis
 
 ### Project 1: HR KPI Analysis
 
@@ -42,7 +42,7 @@ I'm a total data junkie who loves diving into business and market intel to uncov
 
 ---
 
-## Projects -R language
+## ![image](https://github.com/Zeng-Amber/ZENG-Amber/assets/140411179/e9983f43-e203-4070-bf91-9a1c53e72425) Projects -R language
 
 ### Project 3: Wisconsin Breast Cancer Prediction
 
