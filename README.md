@@ -1,6 +1,6 @@
 # Hi there, I'm Amber! 👋
 
-I'm a total data junkie who loves diving into business and market intel to uncover insights hidden within the numbers. 
+I'm a total data junkie who loves diving into business and market intel to uncover insights hidden within the numbers.
 
 👩‍💻 I'm currently working on Market intelligence research related to energy service market for the company I am working on in Munich.
 
@@ -8,18 +8,19 @@ I'm a total data junkie who loves diving into business and market intel to uncov
 
 ---
 
-## Projects
+## Projects -Business and market analysis
 
 ### Project 1: HR KPI Analysis
 
-<details> 
+<details>
+
 <summary>View Project</summary>
+
 </br>
 
 [Tableau](https://public.tableau.com/views/HRdashboard_16928327379680/HRanalyticsdashboard?:language=zh-TW&:sid=&:display_count=n&:origin=viz_share_link)
- 
-[![HR KPI Analysis](https://drive.google.com/uc?export=view&id=1W9K0P3PzDyjoBNMEMW88w0fUbGsBiHms)](https://drive.google.com/drive/u/0/folders/1b_dC6NokoEJxdB3TJg6igCtwemin3iSu)
 
+![HR KPI Analysis](https://drive.google.com/uc?export=view&id=1W9K0P3PzDyjoBNMEMW88w0fUbGsBiHms)](https://drive.google.com/drive/u/0/folders/1b_dC6NokoEJxdB3TJg6igCtwemin3iSu)
 
 </details>
 
@@ -28,22 +29,25 @@ I'm a total data junkie who loves diving into business and market intel to uncov
 ### Project 2: Pizza Sales Analysis
 
 <details>
+
 <summary>View Project</summary>
+
 </br>
 
 [Tableau](https://public.tableau.com/views/PerformanceofPizzaresaurant/Home?:language=zh-TW&:sid=&:display_count=n&:origin=viz_share_link)
 
-[![Pizza Sales Analysis](https://drive.google.com/uc?export=view&id=1ZX97RYpYIFLQ-_MNANtEbPU7Ue0OVeqY)](https://drive.google.com/file/d/1ZX97RYpYIFLQ-_MNANtEbPU7Ue0OVeqY/view?usp=drive_link)
+![Pizza Sales Analysis](https://drive.google.com/uc?export=view&id=1ZX97RYpYIFLQ-_MNANtEbPU7Ue0OVeqY)](https://drive.google.com/file/d/1ZX97RYpYIFLQ-_MNANtEbPU7Ue0OVeqY/view?usp=drive_link)
 
 </details>
 
 ---
 
+## Projects -R language
+
 ### Project 3: Wisconsin Breast Cancer Prediction
 
-I'm currently learning R language, and here's the project I've been working on: Wisconsin Breast Cancer Prediction.
-
 <details>
+
 <summary>View Code</summary>
 
 ```r
@@ -79,10 +83,10 @@ install.packages("caret")
 library(caret)
 control <- trainControl(method = 'cv', number = 10)
 model <- train(diagnosis ~ ., train_data,
- method = 'knn',
- preProcess = c('center', 'scale'),
- trControl = control,
- tuneLength = 5
+              method = 'knn',
+              preProcess = c('center', 'scale'),
+              trControl = control,
+              tuneLength = 5
 )
 
 ## Result
