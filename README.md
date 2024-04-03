@@ -10,7 +10,23 @@ I'm a total data junkie who loves diving into business and market intel to uncov
 
 _Projects -Business and market analysis_
 
-### Project 1: HR KPI Analysis
+### Project 4: PV Monitoring Market Analysis
+
+<details>
+
+<summary>View Project</summary>
+
+</br>
+
+[Tableau](https://public.tableau.com/views/PVmonitorresearch/Dashboard2?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
+
+![PV Monitoring Market Analysis](https://drive.google.com/uc?export=view&id=1Oi0kaX29C42XdnWSgZPiMSglfv52DjgJ)
+
+</details>
+
+---
+
+### Project 3: HR KPI Analysis
 
 <details>
 
@@ -44,7 +60,7 @@ _Projects -Business and market analysis_
 
 _Projects -R language_
 
-### Project 3: Wisconsin Breast Cancer Prediction
+### Project 1: Wisconsin Breast Cancer Prediction
 
 <details>
 
