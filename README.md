@@ -18,6 +18,14 @@ _Projects -Business and market analysis_
 
 </br>
 
+#Competitive analysis using web analysis tools like Semrush
+
+#Examining competitors through Google Ad Transparency
+
+#Summarizing the competitive analysis findings
+
+#Using the summary as a reference for product development
+
 [Tableau](https://public.tableau.com/views/PVmonitorresearch/Dashboard2?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
 ![PV Monitoring Market Analysis](https://drive.google.com/uc?export=view&id=1Oi0kaX29C42XdnWSgZPiMSglfv52DjgJ)
@@ -34,9 +42,17 @@ _Projects -Business and market analysis_
 
 </br>
 
+An online project practice that involves working with HR performance data. The goal is to practice creating various charts and visualizations to analyze different data points
+
+#Uncover trends, patterns, and relationships within the attrition rate and job satisfaction rating data.
+
+#Use the data insights to identify potential focus areas for improving HR performance and employee retention.
+
+#Practice translating data-driven findings into actionable recommendations.
+
 [Tableau](https://public.tableau.com/views/HRdashboard_16928327379680/HRanalyticsdashboard?:language=zh-TW&:sid=&:display_count=n&:origin=viz_share_link)
 
-![HR KPI Analysis](https://drive.google.com/uc?export=view&id=1W9K0P3PzDyjoBNMEMW88w0fUbGsBiHms)](https://drive.google.com/drive/u/0/folders/1b_dC6NokoEJxdB3TJg6igCtwemin3iSu)
+![HR KPI Analysis](https://drive.google.com/uc?export=view&id=1W9K0P3PzDyjoBNMEMW88w0fUbGsBiHms)
 
 </details>
 
@@ -50,9 +66,17 @@ _Projects -Business and market analysis_
 
 </br>
 
+An online project to analyze sales performance. The goal is to use SQL to organize and structure the sales data, and then leverage Tableau to visualize the performance analysis and gain valuable insights.
+
+#Clean, transform, and organize the data to prepare it for analysis.
+
+#Investigate factors that may be influencing sales, such as product performance, customer segments, or regional differences.
+
+#Translate the data-driven findings into actionable recommendations for optimizing product sales and strategies.
+
 [Tableau](https://public.tableau.com/views/PerformanceofPizzaresaurant/Home?:language=zh-TW&:sid=&:display_count=n&:origin=viz_share_link)
 
-![Pizza Sales Analysis](https://drive.google.com/uc?export=view&id=1ZX97RYpYIFLQ-_MNANtEbPU7Ue0OVeqY)](https://drive.google.com/file/d/1ZX97RYpYIFLQ-_MNANtEbPU7Ue0OVeqY/view?usp=drive_link)
+![Pizza Sales Analysis](https://drive.google.com/uc?export=view&id=1ZX97RYpYIFLQ-_MNANtEbPU7Ue0OVeqY)
 
 </details>
 
