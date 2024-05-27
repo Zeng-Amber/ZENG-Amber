@@ -6,10 +6,31 @@ I'm a total data junkie who loves diving into business and market intel to uncov
 
 📊 Check out my Tableau profile using SQL work [here](https://public.tableau.com/app/profile/yining.zeng/vizzes).
 
----
 
 _Projects -Business and market analysis_
 
+### Project 5: Market Research Review
+
+<details>
+
+<summary>View Project</summary>
+
+</br>
+
+*In my role executing market research, I have conducted market intelligence research to provide insights within the department.*
+
+#Competing Market and Product Trend
+![Competing Market and Product Trend](https://drive.google.com/uc?export=view&id=1Oazc-Iuuf29a77a6XT1TNSAsA_GUi6kH)
+
+#Lab Power Supply Market Trend
+![Lab Power Supply Market](https://drive.google.com/uc?export=view&id=1RvZe0peTLvv4BmNm_ZenSpo_G11YJKdm)
+
+#Wieland and Schuko Product
+![Wieland and Schuko](https://drive.google.com/uc?export=view&id=1GhoXTTHl6aUI7ck_lwiEHCYpO14ynb3h)
+
+</details>
+
+---
 ### Project 4: PV Monitoring Market Analysis
 
 <details>
@@ -29,6 +50,7 @@ _Projects -Business and market analysis_
 [Tableau](https://public.tableau.com/views/PVmonitorresearch/Dashboard2?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
 ![PV Monitoring Market Analysis](https://drive.google.com/uc?export=view&id=1Oi0kaX29C42XdnWSgZPiMSglfv52DjgJ)
+![Wieland and Schuko](https://drive.google.com/uc?export=view&id=12fJ5i13HKRBHcvNEE9FTSTWZEY7Cq7EN)
 
 </details>
 
