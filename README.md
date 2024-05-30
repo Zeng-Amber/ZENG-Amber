@@ -19,6 +19,9 @@ _Projects -Business and market analysis_
 
 *In my role executing market research, I have conducted market intelligence research to provide insights within the department.*
 
+#PV Monitoring Market
+![PV Monitoring Market](https://drive.google.com/uc?export=view&id=12fJ5i13HKRBHcvNEE9FTSTWZEY7Cq7EN)
+
 #Competing Market and Product Trend
 ![Competing Market and Product Trend](https://drive.google.com/uc?export=view&id=1Oazc-Iuuf29a77a6XT1TNSAsA_GUi6kH)
 
@@ -48,9 +51,7 @@ _Projects -Business and market analysis_
 #Using the summary as a reference for product development
 
 [Tableau](https://public.tableau.com/views/PVmonitorresearch/Dashboard2?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
-
-![PV Monitoring Market Analysis](https://drive.google.com/uc?export=view&id=1Oi0kaX29C42XdnWSgZPiMSglfv52DjgJ)
-![Wieland and Schuko](https://drive.google.com/uc?export=view&id=12fJ5i13HKRBHcvNEE9FTSTWZEY7Cq7EN)
+![PV Monitoring Market](https://drive.google.com/uc?export=view&id=1lKbbFzzIDphFb1eD4bK8zGnljk7B6Bdp)
 
 </details>
 
@@ -74,7 +75,7 @@ An online project practice that involves working with HR performance data. The g
 
 [Tableau](https://public.tableau.com/views/HRdashboard_16928327379680/HRanalyticsdashboard?:language=zh-TW&:sid=&:display_count=n&:origin=viz_share_link)
 
-![HR KPI Analysis](https://drive.google.com/uc?export=view&id=1W9K0P3PzDyjoBNMEMW88w0fUbGsBiHms)
+![HR KPI Analysis](https://drive.google.com/uc?export=view&id=1YSIHXoAQfs5ZDEkRLv7D6xQOiJ6xRRqm)
 
 </details>
 
