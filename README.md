@@ -23,10 +23,10 @@ _Projects -Business and market analysis_
 ![PV Monitoring Market](https://drive.google.com/uc?export=view&id=12fJ5i13HKRBHcvNEE9FTSTWZEY7Cq7EN)
 
 #Competing Market and Product Trend
-![Competing Market and Product Trend](https://drive.google.com/uc?export=view&id=1Oazc-Iuuf29a77a6XT1TNSAsA_GUi6kH)
+![Competing Market and Product Trend](https://drive.google.com/uc?export=view&id=1TcDKzLMaEP7Q6PxhCH5Grk-q0wv--Y0h)
 
 #Lab Power Supply Market Trend
-![Lab Power Supply Market](https://drive.google.com/uc?export=view&id=1RvZe0peTLvv4BmNm_ZenSpo_G11YJKdm)
+![Lab Power Supply Market](https://drive.google.com/uc?export=view&id=14Kqrq86yS15ZAp97eyovRdo4jlE6xr6S)
 
 #Wieland and Schuko Product
 ![Wieland and Schuko](https://drive.google.com/uc?export=view&id=1GhoXTTHl6aUI7ck_lwiEHCYpO14ynb3h)
