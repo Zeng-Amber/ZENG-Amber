@@ -1,6 +1,10 @@
 # Hi there, I'm Amber! 👋
 
 I'm a total data junkie who loves diving into business and market intel to uncover insights hidden within the numbers.
+</br>
+[Tableau](https://public.tableau.com/app/profile/yining.zeng/vizzes)
+
+</br>
 
 _SQL-Business and market analysis_
 
