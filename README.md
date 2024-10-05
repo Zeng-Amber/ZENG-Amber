@@ -34,7 +34,24 @@ Examines revenue performance over the past six months, highlighting seasonal tre
 Reviews historical sales patterns, focusing on the top three and bottom three products in each category based on total revenue.
 
 ## Data Structure
-![My Pinterest Image](https://www.pinterest.com/pin/781585710365610786.jpg)
+
+The dataset contains 9 fields. Before beginning the analysis, data cleaning and standardization are necessary. For example, the original value of the 'transaction_date' field is in 'text' format, which needs to be converted to a 'date' type for accurate analysis.
+
+<img width="292" alt="Screenshot 2024-10-05 at 20 39 18" src="https://github.com/user-attachments/assets/7f7f3c1f-ca0b-4b92-8cab-d121560f8255">
+</br>
+
+## Insight Deep Dive
+
+1. Overall Overview: Key metrics such as Total Revenue, Order Volume, and Average Order Value (AOV).
+
+</br>
+
+2. Product Market Share by Revenue: Identifying the top 3 and bottom 3 products in each category based on revenue contribution.
+
+</br> 
+
+3. Revenue Contribution by Category: Analyzing which categories generate the most revenue by month and region.
+
 
 ```sql
 #Load database
