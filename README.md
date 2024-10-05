@@ -41,7 +41,7 @@ The dataset contains 9 fields. Before beginning the analysis, data cleaning and 
 
 <img width="780" alt="Screenshot 2024-10-05 at 21 43 39" src="https://github.com/user-attachments/assets/9288cb7c-d89f-45c9-82f7-9d6faea2129b">
 
-* Revenue Distribution: Analyzing the most revenue by month and region, also to observe the up trend and down trend.
+* Revenue Distribution: Analyzing total revenue by month and region, identifying upward and downward trends.
 
   The total revenue indicates a declining performance, which should be a cause for concern. Considering that the prices for the 'Electronics' and 'Home Appliances' categories are higher compared to other categories, the reduced order volumes in February and June help explain the decline. Overall, the end of the first quarter saw a significant drop in sales across all regions.
 
