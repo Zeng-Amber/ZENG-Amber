@@ -15,9 +15,9 @@ _SQL-Business and market analysis_
 
 ## Project Overview
 
-An online retail shop, a global e-commerce company, offers a wide range of product categories across Asia, Europe, and North America. &nbsp;An Tableau interactive dashboard can be checked [here](https://public.tableau.com/app/profile/yining.zeng/viz/OnlineRetailShop_17281331942810/Dashboard1).
+_An Tableau interactive dashboard can be checked [here](https://public.tableau.com/app/profile/yining.zeng/viz/OnlineRetailShop_17281331942810/Dashboard1)._
 
-This project provides insights and recommendations in the following key areas:
+**An online retail shop, a global e-commerce company, offers a wide range of product categories across Asia, Europe, and North America. This project provides insights and recommendations in the following key areas:**
  
 * **Sales Trends Analysis**: Evaluates KPIs such as revenue, order volume, and average order value (AOV).
 
