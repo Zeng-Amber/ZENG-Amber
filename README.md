@@ -49,7 +49,7 @@ The dataset contains 9 fields. Before beginning the analysis, data cleaning and 
 
 * Product Market Share by Revenue: Identifying the Top 3 and Bottom 3 products in each category based on revenue contribution.
 
-  To assess our marketing and procurement strategy, we analyzed the top 3 and bottom 3 products based on revenue. By considering both product price and units sold, we can identify which products contribute the highest and lowest revenue share within each category.
+  To assess our marketing and procurement strategy, I analyzed the top 3 and bottom 3 products based on revenue. By considering both product price and units sold, we can identify which products contribute the highest and lowest revenue share within each category.
 
 <img width="1269" alt="Screenshot 2024-10-05 at 22 16 17" src="https://github.com/user-attachments/assets/c2a7c991-ad98-47f5-85fa-4332dc3cab50">
 
