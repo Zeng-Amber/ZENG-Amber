@@ -2,7 +2,7 @@
 
 I'm a total data junkie who loves diving into business and market intel to uncover insights hidden within the numbers.
 
-_Projects -Business and market analysis_
+_SQL-Business and market analysis_
 
 ### Project 6: Online Retail Shop Performance
 
@@ -217,7 +217,7 @@ An online project to analyze sales performance. The goal is to use SQL to organi
 
 ---
 
-_Projects -R language_
+_R language_
 
 ### Project 1: Wisconsin Breast Cancer Prediction
 
