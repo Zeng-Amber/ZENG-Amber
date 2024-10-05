@@ -1,12 +1,8 @@
-# Hi there, I'm Amber! 👋
-
-I'm a total data junkie who loves diving into business and market intel to uncover insights hidden within the numbers.
-</br>
-[Tableau](https://public.tableau.com/app/profile/yining.zeng/vizzes)
+# Hi there 👋 I'm a total data junkie who loves diving into business and market intel to uncover insights hidden within the numbers!
 
 </br>
 
-_SQL-Business and market analysis_
+_SQL_
 
 ### Project 5: Global E-commerce Business Analysis
 
