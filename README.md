@@ -20,7 +20,7 @@ An online retail shop, a global e-commerce company, offers a wide range of produ
 
 This project provides insights and recommendations in the following key areas:
  
-* **Sales Trends Analysis**: Evaluates KPIs such as revenue, order volume, and average order value (AOV)ㄡ
+* **Sales Trends Analysis**: Evaluates KPIs such as revenue, order volume, and average order value (AOV).
 
 * **Inventory Management Analysis:** Analyzes product lines to understand customer purchase preferences across different regions and time periods.
 
