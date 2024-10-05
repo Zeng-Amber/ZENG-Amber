@@ -2,11 +2,6 @@
 
 I'm a total data junkie who loves diving into business and market intel to uncover insights hidden within the numbers.
 
-👩‍💻 I'm currently working on Market intelligence research related to energy service market for the company I am working with in Munich.
-
-📊 Check out my Tableau profile using SQL work [here](https://public.tableau.com/app/profile/yining.zeng/vizzes).
-
-
 _Projects -Business and market analysis_
 
 ### Project 6: Online Retail Shop Performance
@@ -175,8 +170,6 @@ order by 1 ;
 
 #Using the summary as a reference for product development
 
-[Tableau](https://public.tableau.com/views/PVmonitorresearch/Dashboard2?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
-![PV Monitoring Market](https://drive.google.com/uc?export=view&id=1lKbbFzzIDphFb1eD4bK8zGnljk7B6Bdp)
 
 </details>
 
@@ -198,10 +191,6 @@ An online project practice that involves working with HR performance data. The g
 
 #Practice translating data-driven findings into actionable recommendations.
 
-[Tableau](https://public.tableau.com/views/HRdashboard_16928327379680/HRanalyticsdashboard?:language=zh-TW&:sid=&:display_count=n&:origin=viz_share_link)
-
-![HR KPI Analysis](https://drive.google.com/uc?export=view&id=1YSIHXoAQfs5ZDEkRLv7D6xQOiJ6xRRqm)
-
 </details>
 
 ---
@@ -222,9 +211,7 @@ An online project to analyze sales performance. The goal is to use SQL to organi
 
 #Translate the data-driven findings into actionable recommendations for optimizing product sales and strategies.
 
-[Tableau](https://public.tableau.com/views/PerformanceofPizzaresaurant/Home?:language=zh-TW&:sid=&:display_count=n&:origin=viz_share_link)
 
-![Pizza Sales Analysis](https://drive.google.com/uc?export=view&id=1ZX97RYpYIFLQ-_MNANtEbPU7Ue0OVeqY)
 
 </details>
 
