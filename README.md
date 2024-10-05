@@ -8,7 +8,7 @@ I'm a total data junkie who loves diving into business and market intel to uncov
 
 _SQL-Business and market analysis_
 
-### Project 6: Online Retail Shop Performance
+### Project 5: Online Retail Shop Performance
 
 <details>
 <summary>View Code</summary>
