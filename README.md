@@ -1,6 +1,5 @@
 # Hi there 👋 I'm a total data junkie who loves diving into business and market intel to uncover insights hidden within the numbers!
 
-</br>
 
 _SQL_
 
@@ -232,7 +231,7 @@ order by 1 ;
 
 ---
 
-### Project 4: PV Monitoring Market Analysis
+_[to be reorganized] <Project 4: PV Monitoring Market Analysis>_
 
 <details>
 
@@ -253,7 +252,7 @@ order by 1 ;
 
 ---
 
-### Project 3: HR KPI Analysis
+_[to be reorganized] <Project 3: HR KPI Analysis>_
 
 <details>
 
@@ -273,7 +272,7 @@ An online project practice that involves working with HR performance data. The g
 
 ---
 
-### Project 2: Pizza Sales Analysis
+_[to be reorganized] <Project 2: Pizza Sales Analysis>_
 
 <details>
 
@@ -297,7 +296,7 @@ An online project to analyze sales performance. The goal is to use SQL to organi
 
 _R language_
 
-### Project 1: Wisconsin Breast Cancer Prediction
+_[to be reorganized] <Project 1: Wisconsin Breast Cancer Prediction>_
 
 <details>
 
