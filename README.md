@@ -20,14 +20,14 @@ An online retail shop, a global e-commerce company, offers a wide range of produ
 An interactive dashboard can be checked [here](https://public.tableau.com/app/profile/yining.zeng/viz/OnlineRetailShop_17281331942810/Dashboard1)
 
 This project provides insights and recommendations in the following key areas:
+ 
+* **Sales Trends Analysis**: Evaluates KPIs such as revenue, order volume, and average order value (AOV)
 
-**- Sales Trends Analysis:** Evaluates KPIs such as revenue, order volume, and average order value (AOV).
+* **Inventory Management Analysis:** Analyzes product lines to understand customer purchase preferences across different regions and time periods.
 
-**- Inventory Management Analysis:** Analyzes product lines to understand customer purchase preferences across different regions and time periods.
+* **Seasonality and Regional Comparisons:** Examines revenue performance over the past six months, highlighting seasonal trends and regional fluctuations.
 
-**- Seasonality and Regional Comparisons:** Examines revenue performance over the past six months, highlighting seasonal trends and regional fluctuations.
-
-**- Product Share Analysis:** Reviews historical sales patterns, focusing on the top three and bottom three products in each category based on total revenue.
+* **Product Share Analysis:** Reviews historical sales patterns, focusing on the top three and bottom three products in each category based on total revenue.
 
 ## Data Structure
 
