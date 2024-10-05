@@ -9,31 +9,156 @@ I'm a total data junkie who loves diving into business and market intel to uncov
 
 _Projects -Business and market analysis_
 
-### Project 5: Market Research Review
+### Project 6: Online Retail Shop Performance
 
 <details>
+<summary>View Code</summary>
 
-<summary>View Project</summary>
+```sql
+#Load database
+USE online_sales;
 
-</br>
+#Staging table
+CREATE TABLE staging_
+LIKE `online sales data`;
 
-*In my role executing market research, I have conducted market intelligence research to provide insights within the department.*
+INSERT INTO staging_
+SELECT * FROM `online sales data`;
+    
+SELECT *
+FROM  staging_;
 
-#PV Monitoring Market
-![PV Monitoring Market](https://drive.google.com/uc?export=view&id=12fJ5i13HKRBHcvNEE9FTSTWZEY7Cq7EN)
+#Standardize data type /field name /spelling
+ALTER TABLE staging_
+MODIFY COLUMN `date` date;
 
-#Competing Market and Product Trend
-![Competing Market and Product Trend](https://drive.google.com/uc?export=view&id=1TcDKzLMaEP7Q6PxhCH5Grk-q0wv--Y0h)
+ALTER TABLE staging_
+RENAME COLUMN `Product Category`to product_category;
 
-#Lab Power Supply Market Trend
-![Lab Power Supply Market](https://drive.google.com/uc?export=view&id=14Kqrq86yS15ZAp97eyovRdo4jlE6xr6S)
+ALTER TABLE staging_
+RENAME COLUMN `Product Name`to product_name;
 
-#Wieland and Schuko Product
-![Wieland and Schuko](https://drive.google.com/uc?export=view&id=1GhoXTTHl6aUI7ck_lwiEHCYpO14ynb3h)
+ALTER TABLE staging_
+RENAME COLUMN `Units Sold`to units_sold;
 
+ALTER TABLE staging_
+RENAME COLUMN `Unit Price`to unit_price;
+
+ALTER TABLE staging_
+RENAME COLUMN `Total Revenue`to total_revenue;
+
+ALTER TABLE staging_
+RENAME COLUMN `Payment Method`to payment_method;
+
+ALTER TABLE staging_
+RENAME COLUMN `Transaction ID`to transaction_id;
+
+ALTER TABLE staging_
+RENAME COLUMN `date`to transaction_date;
+
+UPDATE staging_
+SET product_category=TRIM(product_category), Region=TRIM(Region), payment_method=TRIM(payment_method);
+
+#Check duplicate
+WITH base AS
+(SELECT *,
+ROW_NUMBER() OVER (PARTITION BY transaction_id, transaction_date, product_category, product_name, units_sold, unit_price, total_revenue, Region, payment_method) AS row_num
+FROM staging_)
+
+SELECT *
+FROM base
+WHERE row_num >1;
+
+#Top3 & Bottom 3 Product in Category by Revenue
+WITH base AS (
+    SELECT
+        product_category,
+        product_name,
+        ROUND(total_revenue) total_revenue,
+        units_sold,
+        ROUND(unit_price) unit_price,
+        ROUND((SUM(total_revenue)*100 / (SELECT SUM(total_revenue) FROM staging WHERE product_category = a.product_category)),1) AS product_share,
+        DENSE_RANK() OVER (PARTITION BY product_category ORDER BY (SUM(total_revenue)*100 / (SELECT SUM(total_revenue) FROM staging WHERE product_category = a.product_category)) DESC) AS category_rank
+    FROM staging_ a
+	GROUP BY 1,2,3,4,5
+)
+SELECT *
+FROM base;
+
+##Top3
+CREATE VIEW Top3 AS
+WITH base AS (
+    SELECT
+        product_category,
+        product_name,
+        ROUND(total_revenue) total_revenue,
+        units_sold,
+        ROUND(unit_price) unit_price,
+        ROUND((SUM(total_revenue)*100 / (SELECT SUM(total_revenue) FROM staging WHERE product_category = a.product_category)),1) AS product_share,
+        DENSE_RANK() OVER (PARTITION BY product_category ORDER BY (SUM(total_revenue)*100 / (SELECT SUM(total_revenue) FROM staging WHERE product_category = a.product_category)) DESC) AS category_rank
+    FROM staging_ a
+	GROUP BY 1,2,3,4,5
+)
+SELECT *
+FROM base
+WHERE category_rank <=3;
+
+##Bottom3
+CREATE VIEW bottom_3 AS
+WITH base AS (
+    SELECT
+        product_category,
+        product_name,
+        ROUND(total_revenue) total_revenue,
+        units_sold,
+        ROUND(unit_price) unit_price,
+        ROUND((SUM(total_revenue)*100 / (SELECT SUM(total_revenue) FROM staging WHERE product_category = a.product_category)),1) AS product_share,
+        DENSE_RANK() OVER (PARTITION BY product_category ORDER BY (SUM(total_revenue)*100 / (SELECT SUM(total_revenue) FROM staging WHERE product_category = a.product_category)) ASC) AS category_rank
+    FROM staging_ a
+	GROUP BY 1,2,3,4,5
+)
+SELECT *
+FROM base
+WHERE category_rank <=3;
+
+#Total Revenue in Month by Category
+SELECT
+    product_category,
+    DATE_FORMAT(transaction_date, '%Y-%m') AS month,
+    ROUND(SUM(total_revenue),1) AS total_revenue
+FROM staging_
+GROUP BY 1,2
+order by 1;
+
+
+SELECT *
+FROM staging_;
+
+#Overview KPI
+##Total Revenue
+SELECT ROUND(SUM(total_revenue),1) total_revenue
+FROM staging_;
+
+##AVG Order Value
+SELECT ROUND(AVG(unit_price),1) avg_order_unit_price
+FROM staging_;
+
+#Revenue by Month & Region
+SELECT DATE_FORMAT(transaction_date, '%Y-%m') AS MONTH, ROUND(SUM(total_revenue),1) total_revenue, region
+FROM staging_
+GROUP BY 1,3;
+
+#Order Volume by Month & Region in Category
+SELECT DATE_FORMAT(transaction_date, '%Y-%m') AS month, region, COUNT(transaction_id) AS num_transaction
+FROM staging_
+group by 1,2
+order by 1 ;
+
+```
 </details>
 
 ---
+
 ### Project 4: PV Monitoring Market Analysis
 
 <details>
