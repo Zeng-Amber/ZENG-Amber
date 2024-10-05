@@ -40,7 +40,7 @@ The dataset contains 9 fields. Before beginning the analysis, data cleaning and 
 
 * Overall Overview: Key metrics such as Total Revenue, Order Volume, and Average Order Value (AOV).
 
-1. In the past six months, we generated a total of $66,000 in revenue from 181 products sold, with an average order value of approximately $247.
+1. In the past six months, we generated a total of $66K in revenue from 181 products sold, with an average order value of approximately $247.
 
 <img width="821" alt="Screenshot 2024-10-05 at 21 33 30" src="https://github.com/user-attachments/assets/288358cb-110b-493d-b700-c5cdb5d95a70">
 
@@ -50,16 +50,23 @@ The dataset contains 9 fields. Before beginning the analysis, data cleaning and 
 
 * Revenue Contribution by Category: Analyzing which categories generate the most revenue by month and region.
 
-1. 
+  The total revenue indicates a declining performance, which should be a cause for concern. Considering that the prices for the 'Electronics' and 'Home Appliances' categories are higher compared to other categories, the reduced order volumes in February and June help explain the decline. Overall, the end of the first quarter saw a significant drop in sales across all regions.
 
 <img width="1275" alt="Screenshot 2024-10-05 at 21 57 16" src="https://github.com/user-attachments/assets/4159e681-8d65-4d0c-b04f-38f811b574fb">
 
-
 * Product Market Share by Revenue: Identifying the Top 3 and Bottom 3 products in each category based on revenue contribution.
+
+  To assess our marketing and procurement strategy, we analyzed the top 3 and bottom 3 products based on revenue. By considering both product price and units sold, we can identify which products contribute the highest and lowest revenue share within each category.
+
+<img width="1269" alt="Screenshot 2024-10-05 at 22 16 17" src="https://github.com/user-attachments/assets/c2a7c991-ad98-47f5-85fa-4332dc3cab50">
+
+
+## Recommendation and Communication
 
 
 </br> 
 
+## SQL queries
 
 ```sql
 #Load database
