@@ -21,17 +21,13 @@ An interactive dashboard can be checked [here](https://public.tableau.com/app/pr
 
 This project provides insights and recommendations in the following key areas:
 
-####  - Sales Trends Analysis:
-Evaluates KPIs such as revenue, order volume, and average order value (AOV).
+**- Sales Trends Analysis:** Evaluates KPIs such as revenue, order volume, and average order value (AOV).
 
-####  - Inventory Management Analysis:
-Analyzes product lines to understand customer purchase preferences across different regions and time periods.
+**- Inventory Management Analysis:** Analyzes product lines to understand customer purchase preferences across different regions and time periods.
 
-####  - Seasonality and Regional Comparisons:
-Examines revenue performance over the past six months, highlighting seasonal trends and regional fluctuations.
+**- Seasonality and Regional Comparisons:** Examines revenue performance over the past six months, highlighting seasonal trends and regional fluctuations.
 
-####  - Product Share Analysis:
-Reviews historical sales patterns, focusing on the top three and bottom three products in each category based on total revenue.
+**- Product Share Analysis:** Reviews historical sales patterns, focusing on the top three and bottom three products in each category based on total revenue.
 
 ## Data Structure
 
@@ -42,15 +38,27 @@ The dataset contains 9 fields. Before beginning the analysis, data cleaning and 
 
 ## Insight Deep Dive
 
-1. Overall Overview: Key metrics such as Total Revenue, Order Volume, and Average Order Value (AOV).
+* Overall Overview: Key metrics such as Total Revenue, Order Volume, and Average Order Value (AOV).
 
-</br>
+1. In the past six months, we generated a total of $66,000 in revenue from 181 products sold, with an average order value of approximately $247.
 
-2. Product Market Share by Revenue: Identifying the top 3 and bottom 3 products in each category based on revenue contribution.
+<img width="821" alt="Screenshot 2024-10-05 at 21 33 30" src="https://github.com/user-attachments/assets/288358cb-110b-493d-b700-c5cdb5d95a70">
+
+2. In different regions, we offer two product categories per region. Over the past six months, January, March, and May saw the highest sales volumes, with North America leading in product sales, particularly in the Electronics category. In contrast, February and June recorded the lowest sales in both Europe and North America. Considering seasonality, Q1 exhibited more dynamic fluctuations in sales compared to Q2, which showed a more stable order volume. This insight will be valuable for optimizing future inventory management.
+
+<img width="780" alt="Screenshot 2024-10-05 at 21 43 39" src="https://github.com/user-attachments/assets/9288cb7c-d89f-45c9-82f7-9d6faea2129b">
+
+* Revenue Contribution by Category: Analyzing which categories generate the most revenue by month and region.
+
+1. 
+
+<img width="1275" alt="Screenshot 2024-10-05 at 21 57 16" src="https://github.com/user-attachments/assets/4159e681-8d65-4d0c-b04f-38f811b574fb">
+
+
+* Product Market Share by Revenue: Identifying the Top 3 and Bottom 3 products in each category based on revenue contribution.
+
 
 </br> 
-
-3. Revenue Contribution by Category: Analyzing which categories generate the most revenue by month and region.
 
 
 ```sql
