@@ -68,13 +68,13 @@ The dataset contains 9 fields. Before beginning the analysis, data cleaning and 
  
 2. **Focus on High-Value Categories:** Boost the performance of high-value categories like 'Electronics' and 'Home Appliances' by optimizing pricing, promotions, and customer targeting.
 
+3. **Boost Sales in Low-Volume Months:** Plan targeted marketing campaigns in February and June to drive demand and smooth out sales fluctuations.
+
 * ### Refine Inventory Management
 
 1. **Plan for Seasonality:** Plan for Seasonality: Adjust inventory levels to account for fluctuating demand in Q1, ensuring you are prepared for dynamic sales patterns.
    
 2. **Balance Stock for Q2:** Maintain adequate inventory during Q2, where sales trends are more stable, to avoid excess stock or shortages.
-
-3. **Boost Sales in Low-Volume Months:** Plan targeted marketing campaigns in February and June to drive demand and smooth out sales fluctuations.
 
 * ### Address Regional Differences
 
