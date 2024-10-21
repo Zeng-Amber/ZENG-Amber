@@ -5,8 +5,6 @@
 <details>
 <summary>View Project</summary>
 
-![Picture1](https://github.com/user-attachments/assets/cfee79a2-b45e-4493-a560-095e50f5be01)
-
 
 </details>
 </br>
