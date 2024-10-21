@@ -1,13 +1,21 @@
 # Hi there 👋 I'm a total data junkie who loves diving into business and market intel to uncover insights hidden within the numbers!
 
-
-_SQL_
-
-### Project 5: Global E-commerce Business Analysis
-
+## Excel ⬇️
+### Project 6: Sales Forecast based on Historical Figures 
 <details>
 <summary>View Project</summary>
 
+
+
+</details>
+</br>
+
+## SQL ⬇️
+
+### Project 5: Global E-commerce Business Analysis
+<details>
+<summary>View Project</summary>
+	
 ## Project Overview
 
 _A Tableau interactive dashboard can be checked [here](https://public.tableau.com/app/profile/yining.zeng/viz/OnlineRetailShop_17281331942810/Dashboard1)._
@@ -294,7 +302,7 @@ An online project to analyze sales performance. The goal is to use SQL to organi
 
 ---
 
-_R language_
+## R language ⬇️
 
 _[to be reorganized] <Project 1: Wisconsin Breast Cancer Prediction>_
 
