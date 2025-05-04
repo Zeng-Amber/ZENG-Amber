@@ -1,15 +1,12 @@
 # Hi there 👋 I'm a total data junkie who loves diving into business and market intel to uncover insights hidden within the numbers!
 
-## Excel ⬇️
-### Project 6: Sales Forecast based on Historical Figures 
+## Power BI ⬇️
+### Project 6: 
 <details>
 <summary>View Project</summary>
 
 ## Project Overview
 
-</br>
-
-![2](https://github.com/user-attachments/assets/82b82bd3-ad7f-4ae3-aeb4-5854c5838e81)
 
 
 </details>
@@ -240,69 +237,6 @@ group by 1,2
 order by 1 ;
 
 ```
-</details>
-
----
-
-_[to be reorganized] <Project 4: PV Monitoring Market Analysis>_
-
-<details>
-
-<summary>View Project</summary>
-
-</br>
-
-#Competitive analysis using web analysis tools like Semrush
-
-#Examining competitors through Google Ad Transparency
-
-#Summarizing the competitive analysis findings
-
-#Using the summary as a reference for product development
-
-
-</details>
-
----
-
-_[to be reorganized] <Project 3: HR KPI Analysis>_
-
-<details>
-
-<summary>View Project</summary>
-
-</br>
-
-An online project practice that involves working with HR performance data. The goal is to practice creating various charts and visualizations to analyze different data points
-
-#Uncover trends, patterns, and relationships within the attrition rate and job satisfaction rating data.
-
-#Use the data insights to identify potential focus areas for improving HR performance and employee retention.
-
-#Practice translating data-driven findings into actionable recommendations.
-
-</details>
-
----
-
-_[to be reorganized] <Project 2: Pizza Sales Analysis>_
-
-<details>
-
-<summary>View Project</summary>
-
-</br>
-
-An online project to analyze sales performance. The goal is to use SQL to organize and structure the sales data, and then leverage Tableau to visualize the performance analysis and gain valuable insights.
-
-#Clean, transform, and organize the data to prepare it for analysis.
-
-#Investigate factors that may be influencing sales, such as product performance, customer segments, or regional differences.
-
-#Translate the data-driven findings into actionable recommendations for optimizing product sales and strategies.
-
-
-
 </details>
 
 ---
