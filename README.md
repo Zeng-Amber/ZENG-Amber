@@ -1,6 +1,6 @@
 # Hi there 👋 I'm a total data junkie who loves diving into business and market intel to uncover insights hidden within the numbers!
 
-## Excel Useful Formula ⬇️
+## Useful Excel Formula ⬇️
 * **Finding the last non-blank value in a range** =IFERROR(LOOKUP(2;1/(A2:D2<>"");A2:D2);"")
 * **Weight Average** =SUMPRODUCT(A2:D2;A3:D3)/E3   </br>_A2:D2 = Rate ; D3:D3= Qunatity ; E3= Sum of quantity ; Greater quantity makes greater impact_
 
