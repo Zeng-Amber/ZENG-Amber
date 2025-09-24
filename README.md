@@ -14,7 +14,6 @@
 ## Project Overview
 
 
-
 </details>
 </br>
 
@@ -247,57 +246,3 @@ order by 1 ;
 
 ---
 
-## R language ⬇️
-
-_[to be reorganized] <Project 1: Wisconsin Breast Cancer Prediction>_
-
-<details>
-
-<summary>View Code</summary>
-
-```r
-## Read the data
-data <- read.csv("wisc_bc_data.csv", stringsAsFactors = FALSE)
-
-## View data dimension
-dim(data)
-
-## View data structure
-str(data)
-
-## Check missing data
-sum(is.na(data))
-
-# Load package & pre-process data
-library(tidyverse)
-data <- select(data, -1) %>%
- mutate_at('diagnosis', as.factor)
-
-## Use stratified sampling
-install.packages("sampling")
-library(sampling)
-set.seed(123)
-
-## Data partitioning, 70% training; 30% testing
-train_id <- strata(data, 'diagnosis', size = rev(round(table(data$diagnosis) * 0.7)))$ID_unit
-train_data <- data[train_id, ]
-test_data <- data[-train_id, ]
-
-## Data modeling
-install.packages("caret")
-library(caret)
-control <- trainControl(method = 'cv', number = 10)
-model <- train(diagnosis ~ ., train_data,
-              method = 'knn',
-              preProcess = c('center', 'scale'),
-              trControl = control,
-              tuneLength = 5
-)
-
-## Result
-model[["results"]]
-
-## Model prediction
-truth <- test_data$diagnosis
-pred <- predict(model, newdata = test_data)
-confusionMatrix(table(pred, truth))
