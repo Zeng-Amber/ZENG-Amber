@@ -2,6 +2,9 @@
 
 ## Excel Useful Formula ⬇️
 * **Finding the last non-blank value in a range** =IFERROR(LOOKUP(2;1/(A2:D2<>"");A2:D2);"")
+* **Weight Average** =SUMPRODUCT(A2:D2;A3:D3)/E3  *A2:D2 = Rate ; D3:D3= Qunatity ; E3= Sum of quantity
+
+
 
 ## Power BI ⬇️
 ### Project 6: 
