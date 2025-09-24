@@ -1,8 +1,7 @@
 # Hi there 👋 I'm a total data junkie who loves diving into business and market intel to uncover insights hidden within the numbers!
 
-## Excel Useful Formula
-* **Finding the last non-blank value in a range**
-=IFERROR(LOOKUP(2;1/(A2:D2<>"");A2:D2);"")
+## Excel Useful Formula ⬇️
+* **Finding the last non-blank value in a range** =IFERROR(LOOKUP(2;1/(A2:D2<>"");A2:D2);"")
 
 ## Power BI ⬇️
 ### Project 6: 
