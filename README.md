@@ -7,7 +7,7 @@
 
 
 ## Power BI ⬇️
-### Project 6: 
+### Project: 
 <details>
 <summary>View Project</summary>
 
@@ -21,7 +21,7 @@ _DAX_
 
 ## SQL ⬇️
 
-### Project 5: Global E-commerce Business Analysis
+### Project: Global E-commerce Business Analysis
 <details>
 <summary>View Project</summary>
 	
