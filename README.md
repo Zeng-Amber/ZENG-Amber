@@ -1,12 +1,31 @@
-# Hi there 👋 I'm a total data junkie who loves diving into business and market intel to uncover insights hidden within the numbers!
 
 ## Useful Excel Formula ⬇️
-* **Finding the last non-blank value in a range** =IFERROR(LOOKUP(2;1/(A2:D2<>"");A2:D2);"")
-* **Weight Average** =SUMPRODUCT(A2:D2;A3:D3)/E3   </br>_A2:D2 = Rate ; D3:D3= Qunatity ; E3= Sum of quantity ; Greater quantity makes greater impact_
+* **Finding the last non-blank value in a range** ```=IFERROR(LOOKUP(2;1/(A2:D2<>"");A2:D2);"")```
+* **Weight Average** ```=SUMPRODUCT(A2:D2;A3:D3)/E3```   _A2:D2= Rate ; D3:D3= Qunatity ; E3= Sum of quantity ; Greater quantity makes greater impact_
 
 
 
 ## Power BI ⬇️
+## Useful DAX
+* **Step1: Create a new table for the custom sort order** ```SortOrderTable= DATATABLE("Category", STRING, "SortOrder", INTEGER, {{"order1", 1}, {"order2", 2}, {"order3", 3}}) ```
+  
+* **Step2: Create new columns as calcuation base**
+	1. In Time Count ```=CALCULATE(COUNTROWS('CurrentTable'), 'CurrentTable'[Performance]= "In Time") ```
+
+ 	3. Delay Count ```=CALCULATE(COUNTROWS('CurrentTable'), 'CurrentTable'[Performance]= "Delay") ```
+     
+  	5. In Time % ```=DIVIDE(CALCULATE(COUNTROWS('CurrentTable'), 'CurrentTable'[Performance]= "In Time"), CACULATE(COUNTROWS('CurrentTable')),0)```
+  	   
+  	7. Delay % ```=DIVIDE(CALCULATE(COUNTROWS('CurrentTable'), 'CurrentTable'[Performance]= "Delay"), CACULATE(COUNTROWS('CurrentTable')),0)```
+  	   
+  	9. YTD average lead time ```=VAR MaxOrder = 9 RETURN CALCULATE(AVERAGE('CurrentTable'[LeadTime]), 'SortOrderTable'[SortOrder] <= MaxOrder, NOT(ISBLANK('CurrentTable'[LeadTime])))``` _9=latest month_
+  	    
+  	11. YTD In Time performance ``` ```
+ 
+
+
+
+
 ### Project: 
 <details>
 <summary>View Project</summary>
