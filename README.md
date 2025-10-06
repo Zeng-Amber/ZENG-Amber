@@ -36,10 +36,10 @@ Project desc:
 ```
 
 ```dax		
-	6. YTD In Time performance =
+	6. YTD On Time performance =
 		VAR MaxOrder = 9
 
-		VAR InTimeCount =
+		VAR OnTimeCount =
 			RETURN
 			CALCULATE(
 				COUNTROWS('CurrentTable'),
@@ -57,8 +57,9 @@ Project desc:
 				NOT(ISBLANK('CurrentTable'[Performance])),
 				'CurrentTable'[Performance] <> "null"
 			)
+
 		RETURN
-		DIVIDE(InTimeCount, TotalCount,0)
+		DIVIDE(OnTimeCount, TotalCount,0)
 
 ``` 
 
