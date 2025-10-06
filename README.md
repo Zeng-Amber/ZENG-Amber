@@ -6,25 +6,41 @@
 
 
 ## Power BI ⬇️
-## Useful DAX
-* **Step1: Create a new table for the custom sort order** ```SortOrderTable= DATATABLE("Category", STRING, "SortOrder", INTEGER, {{"order1", 1}, {"order2", 2}, {"order3", 3}}) ```
-  
-* **Step2: Create new columns as calcuation base**
-	1. In Time Count ```=CALCULATE(COUNTROWS('CurrentTable'), 'CurrentTable'[Performance]= "In Time") ```
+## Project
 
- 	3. Delay Count ```=CALCULATE(COUNTROWS('CurrentTable'), 'CurrentTable'[Performance]= "Delay") ```
-     
-  	5. In Time % ```=DIVIDE(CALCULATE(COUNTROWS('CurrentTable'), 'CurrentTable'[Performance]= "In Time"), CACULATE(COUNTROWS('CurrentTable')),0)```
-  	   
-  	7. Delay % ```=DIVIDE(CALCULATE(COUNTROWS('CurrentTable'), 'CurrentTable'[Performance]= "Delay"), CACULATE(COUNTROWS('CurrentTable')),0)```
-  	   
-  	9. YTD average lead time ```=VAR MaxOrder = 9 RETURN CALCULATE(AVERAGE('CurrentTable'[LeadTime]), 'SortOrderTable'[SortOrder] <= MaxOrder, NOT(ISBLANK('CurrentTable'[LeadTime])))``` _9=latest month_
-  	    
-  	11. YTD In Time performance ``` ```
+Project desc: 
+	
+* **Step1: Create a new table for the custom sort order** ```SortOrderTable= DATATABLE("Category", STRING, "SortOrder", INTEGER, {{"order1", 1}, {"order2", 2}, {"order3", 3}}) ```
+
+* **Step2: Create a relationship within tables** : _Drag "Category" from SortOrderTable **Many to one** to "Month Name of Leadtime" from CurrentTable_
+  
+* **Step3: Create new columns as calcuation base**
+</br> 1. In Time Count ```=CALCULATE(COUNTROWS('CurrentTable'), 'CurrentTable'[Performance]= "In Time") ```</br>
+</br> 2. Delay Count ```=CALCULATE(COUNTROWS('CurrentTable'), 'CurrentTable'[Performance]= "Delay") ```</br>
+</br> 3. In Time % ```=DIVIDE(CALCULATE(COUNTROWS('CurrentTable'), 'CurrentTable'[Performance]= "In Time"), CACULATE(COUNTROWS('CurrentTable')),0)```</br>
+</br> 4. Delay % ```=DIVIDE(CALCULATE(COUNTROWS('CurrentTable'), 'CurrentTable'[Performance]= "Delay"), CACULATE(COUNTROWS('CurrentTable')),0)```</br>
+
+</details>   	   
+
+```dax	   
+	5. YTD average lead time =
+  	    VAR MaxOrder = 9
+		RETURN
+		CALCULATE(
+			AVERAGE('CurrentTable'[LeadTime]),
+			'SortOrderTable'[SortOrder] <= MaxOrder,
+			NOT(ISBLANK('CurrentTable'[LeadTime]))
+		)
+
+**9=latest month		
+``` 
+```dax		
+	  6. YTD In Time performance 
+
  
 
 
-
+``` 
 
 ### Project: 
 <details>
