@@ -24,7 +24,7 @@ Project desc:
 
 ```dax	   
 	5. YTD average lead time =
-  	    VAR MaxOrder = 9
+		VAR MaxOrder = 9
 		RETURN
 		CALCULATE(
 			AVERAGE('CurrentTable'[LeadTime]),
@@ -33,12 +33,32 @@ Project desc:
 		)
 
 **9=latest month		
-``` 
+```
+
 ```dax		
-	  6. YTD In Time performance 
+	6. YTD In Time performance =
+		VAR MaxOrder = 9
 
- 
+		VAR InTimeCount =
+			RETURN
+			CALCULATE(
+				COUNTROWS('CurrentTable'),
+				'CurrentTable'[Performance] = "On Time",
+				'SortOrderTable'[SortOrder] <= MaxOrder,
+				NOT(ISBLANK('CurrentTable'[Performance])),
+				'CurrentTable'[Performance] <> "null"
+			)
 
+		VAR TotalCount =
+			RETURN
+			CALCULATE(
+				COUNTROWS('CurrentTable'),
+				'SortOrderTable'[SortOrder] <= MaxOrder,
+				NOT(ISBLANK('CurrentTable'[Performance])),
+				'CurrentTable'[Performance] <> "null"
+			)
+		RETURN
+		DIVIDE(InTimeCount, TotalCount,0)
 
 ``` 
 
