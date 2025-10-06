@@ -6,7 +6,11 @@
 
 
 ## Power BI ⬇️
-## Project
+### Project: Lead Time Analysis
+<details>
+<summary>View Project</summary>
+	
+## Project Overview
 
 Project desc: 
 <img width="4548" height="1919" alt="Image" src="https://github.com/user-attachments/assets/631b5cfd-e558-4700-b739-05f80ab6a562" />
@@ -19,9 +23,7 @@ Project desc:
 </br> 1. In Time Count ```=CALCULATE(COUNTROWS('CurrentTable'), 'CurrentTable'[Performance]= "In Time") ```</br>
 </br> 2. Delay Count ```=CALCULATE(COUNTROWS('CurrentTable'), 'CurrentTable'[Performance]= "Delay") ```</br>
 </br> 3. In Time % ```=DIVIDE(CALCULATE(COUNTROWS('CurrentTable'), 'CurrentTable'[Performance]= "In Time"), CACULATE(COUNTROWS('CurrentTable')),0)```</br>
-</br> 4. Delay % ```=DIVIDE(CALCULATE(COUNTROWS('CurrentTable'), 'CurrentTable'[Performance]= "Delay"), CACULATE(COUNTROWS('CurrentTable')),0)```</br>
-
-</details>   	   
+</br> 4. Delay % ```=DIVIDE(CALCULATE(COUNTROWS('CurrentTable'), 'CurrentTable'[Performance]= "Delay"), CACULATE(COUNTROWS('CurrentTable')),0)```</br>	   
 
 ```dax	   
 	5. YTD average lead time =
@@ -69,6 +71,7 @@ Project desc:
 
 ```
 
+</details>
 
 ## SQL ⬇️
 
