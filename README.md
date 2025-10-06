@@ -61,10 +61,14 @@ Project desc:
 
 		RETURN
 		DIVIDE(OnTimeCount, TotalCount,0)
-
-
-
 ``` 
+
+```dax
+	7. Q2 & Q3 Performance =  
+
+
+```
+
 
 ## SQL ⬇️
 
