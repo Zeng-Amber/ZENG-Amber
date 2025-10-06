@@ -14,6 +14,8 @@
 
 Project desc: 
 <img width="4548" height="1919" alt="Image" src="https://github.com/user-attachments/assets/631b5cfd-e558-4700-b739-05f80ab6a562" />
+
+## Data Structure
 	
 * **Step1: Create a new table for the custom sort order** ```SortOrderTable= DATATABLE("Category", STRING, "SortOrder", INTEGER, {{"order1", 1}, {"order2", 2}, {"order3", 3}}) ```
 
