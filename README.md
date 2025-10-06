@@ -77,7 +77,7 @@ Project desc:
 
 ## SQL ⬇️
 
-### Project: Global E-commerce Business Analysis
+### Online Project: Global E-commerce Business Analysis
 <details>
 <summary>View Project</summary>
 	
