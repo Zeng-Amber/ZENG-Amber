@@ -42,18 +42,6 @@ Project desc:
 
 ``` 
 
-### Project: 
-<details>
-<summary>View Project</summary>
-
-_DAX_
-
-## Project Overview
-
-
-</details>
-</br>
-
 ## SQL ⬇️
 
 ### Project: Global E-commerce Business Analysis
