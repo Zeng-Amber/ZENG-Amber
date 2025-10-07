@@ -13,7 +13,7 @@
 ## Project Overview
 
 Project desc: 
-<img width="4548" height="1919" alt="Image" src="https://github.com/user-attachments/assets/631b5cfd-e558-4700-b739-05f80ab6a562" />
+<img width="4377" height="1882" alt="Image" src="https://github.com/user-attachments/assets/7f680c9b-c753-4a7f-994a-3b4f56234617" />
 
 ## Data Structure
 	
